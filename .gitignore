@@ -1,1 +1,5 @@
-hello_world
+main
+*.map
+*.i
+*.s
+*.o
