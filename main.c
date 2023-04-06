@@ -4,9 +4,12 @@
 #define ADD(a,b) a+b
 
 int main(void) {
-    uint32_t a = 1, b = 2, c =3;
+    uint32_t result;
 
-    printf("%d + %d = %d\n", a, b, ADD(a, b));
-    printf("(%d + %d)*%d = %d\n", a, b, c, ADD(1,2) * 3);
+    result = ADD(1, 2);
+    printf("1 + 2 = %d\n", result);
+
+    result = ADD(1, 2) * 3;
+    printf("(1 + 2) * 3 = %d\n", result);
     return 0;
 }
